@@ -1,0 +1,147 @@
+/* 主体 */
+.counter{
+    width: 636px;
+    height: 650px;
+    background-color: #222222;
+    border-radius: 20px;
+    margin: 50px auto;
+}
+/* 显示框 高80+20*2*/
+#box1, #box2 {
+    height: 80px;
+    width: 576px;
+    background-color: #555555;
+    border: none;
+    font: 700 40px/70px "微软雅黑";
+    color: white;
+    padding-right: 10px;
+}#box1{
+     margin: 20px 25px 5px 25px;
+ }
+ #box2{
+     margin: 5px 25px 10px 25px;
+ }
+
+
+/* 功能区 */
+.funct {
+    padding: 0 20px;
+    position: relative;
+}
+/* 按钮样式 一个按钮高60+10*2*/
+.funct input {
+    height: 60px;
+    width: 60px;
+    padding:0px;
+    border:none;
+    margin: 10px 10px;
+    font: 400 20px/40px "微软雅黑";
+    color:white;
+    background-color: #555555;
+    border-radius: 30px;
+}
+#history{
+    font: 400 15px/30px "微软雅黑";
+}
+
+#res, #back, #history
+{
+    color:black;
+    background-color: white;
+}
+/* + - = . 按钮浮动 */
+#ride, #add, #reduce, #output, #round,#left_parenthesis,#right_parenthesis,#pow, #division, #square,#e,.single{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+/*-----------------下面为倒数第一列--------------------*/
+#ride
+{
+    right: 30px;
+    top: 0px;
+    background-color: #FF9900;
+}
+/* 减号位置 */
+#reduce {
+    right: 30px;
+    top: 80px;
+    background-color: #FF9900;
+}
+
+/* 加号位置 */
+#add {
+    right: 30px;
+    top: 160px;
+    background-color: #FF9900;
+}
+/* 等于号位置 */
+#output {
+    height: 140px;
+    right: 30px;
+    bottom: 0px;
+    background-color: #FF9900;
+}
+
+/*-----------------下面为倒数第二列--------------------*/
+/*除*/
+#division{
+    right: 110px;
+    top: 0px;
+    background-color: #FF9900;
+}
+/*幂次*/
+#pow{
+    right: 110px;
+    top: 80px;
+    background-color: #FF9900;
+}
+/*左括号*/
+#left_parenthesis{
+    right: 110px;
+    top: 160px;
+    background-color: #FF9900;
+}
+
+/*右括号*/
+#right_parenthesis{
+    right: 110px;
+    top: 240px;
+    background-color: #FF9900;
+}
+#square {
+    right: 110px;
+    top: 320px;
+    background-color: #FF9900;
+}
+/*-----------------下面为倒数第三列--------------------*/
+#sin {right: 190px;top: 0px;background-color: #FF9900;}
+#cos {right: 190px;top: 80px;background-color: #FF9900;}
+#tan {right: 190px;top: 160px;background-color: #FF9900;}
+#sqrt {right: 190px;top: 240px;background-color: #FF9900;}
+#e {right: 190px;top: 320px;background-color: #FF9900;}
+
+/*-----------------下面为倒数第四列--------------------*/
+#asin {right: 270px;top: 0px;background-color: #FF9900;}
+#acos {right: 270px;top: 80px;background-color: #FF9900;}
+#atan {right: 270px;top: 160px;background-color: #FF9900;}
+#ln {right: 270px;top: 240px;background-color: #FF9900;}
+#log2 {right: 270px;top: 320px;background-color: #FF9900;}
+
+/* 小数点位置 */
+#round {
+    left: 190px;
+    bottom: 0px;
+}
+/* 0 */
+#zero {
+    width: 140px
+}
+
+/* 数字区 */
+.numb {
+    width: 280px;
+    padding:0px;
+    margin: 0px 0px;
+}
