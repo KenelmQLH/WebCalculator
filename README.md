@@ -1,4 +1,4 @@
-# Web-works
+# Culculator
 HTML\CSS\JavaScipt
 ## 实现一个功能较完备的计算器
 - 可以实现主要的双目运算和单目运算；
