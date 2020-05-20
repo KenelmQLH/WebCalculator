@@ -5,6 +5,10 @@ HTML\CSS\JavaScipt
 - 可以满足运算符优先级的应用；
 - 设置有清除、退格、查看历史记录等功能。
 
+### 项目截图：
+![图片1（三角函数的单位为弧度）](https://github.com/KenelmQLH/WebCalculator/raw/master/Calculator/cal_1.png)
+![图片2](https://github.com/KenelmQLH/WebCalculator/raw/master/Calculator/cal_2.png)
+
 ### 优先级算法：
 用两个栈分别存储数字和运算符
 1. 对于一个运算式字符串，遍历它，（遍历时分离出完整数字），若是数字便进数字栈；
