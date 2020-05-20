@@ -6,6 +6,7 @@ HTML\CSS\JavaScipt
 - 设置有清除、退格、查看历史记录等功能。
 
 ### 项目截图：
+说明：三角函数的单位是弧度
 ![图片1（三角函数的单位为弧度）](https://github.com/KenelmQLH/WebCalculator/raw/master/Calculator/cal_1.png)
 ![图片2](https://github.com/KenelmQLH/WebCalculator/raw/master/Calculator/cal_2.png)
 
